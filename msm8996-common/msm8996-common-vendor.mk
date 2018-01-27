@@ -116,7 +116,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/lib64/vendor.qti.hardware.qdutils_disp@1.0.so:system/lib64/vendor.qti.hardware.qdutils_disp@1.0.so \
     vendor/zuk/msm8996-common/proprietary/lib64/vendor.qti.hardware.tui_comm@1.0.so:system/lib64/vendor.qti.hardware.tui_comm@1.0.so \
     vendor/zuk/msm8996-common/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:system/lib64/vendor.qti.imsrtpservice@1.0.so \
-     vendor/zuk/msm8996-common/proprietary/vendor/bin/ATFWD-daemon:system/vendor/bin/ATFWD-daemon \
+    vendor/zuk/msm8996-common/proprietary/vendor/bin/ATFWD-daemon:system/vendor/bin/ATFWD-daemon \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/cnd:system/vendor/bin/cnd \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/energy-awareness:system/vendor/bin/energy-awareness \
@@ -708,6 +708,27 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0_vendor.so:system/vendor/lib64/vendor.qti.imsrtpservice@1.0_vendor.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/vendor.qti.voiceprint@1.0.so:system/vendor/lib64/vendor.qti.voiceprint@1.0.so \
     vendor/zuk/msm8996-common/proprietary/vendor/radio/qcril_database/qcril.db:system/vendor/radio/qcril_database/qcril.db
+    vendor/zuk/msm8996-common/proprietary/etc/permissions/qti_libpermissions.xml:system/vendor/etc/permissions/qti_libpermissions.xml \
+    vendor/zuk/msm8996-common/proprietary/framework/cneapiclient.jar:system/vendor/framework/cneapiclient.jar \
+    vendor/zuk/msm8996-common/proprietary/lib/lib-imscamera.so:system/vendor/lib/lib-imscamera.so \
+    vendor/zuk/msm8996-common/proprietary/lib/lib-imsvideocodec.so:system/vendor/lib/lib-imsvideocodec.so \
+    vendor/zuk/msm8996-common/proprietary/lib/lib-imsvtextutils.so:system/vendor/lib/lib-imsvtextutils.so \
+    vendor/zuk/msm8996-common/proprietary/lib/lib-imsvtutils.so:system/vendor/lib/lib-imsvtutils.so \
+    vendor/zuk/msm8996-common/proprietary/lib/libdiag_system.so:system/vendor/lib/libdiag_system.so \
+    vendor/zuk/msm8996-common/proprietary/lib/librcc.so:system/vendor/lib/librcc.so \
+    vendor/zuk/msm8996-common/proprietary/lib64/lib-imscamera.so:system/vendor/lib64/lib-imscamera.so \
+    vendor/zuk/msm8996-common/proprietary/lib64/lib-imsvideocodec.so:system/vendor/lib64/lib-imsvideocodec.so \
+    vendor/zuk/msm8996-common/proprietary/lib64/lib-imsvtextutils.so:system/vendor/lib64/lib-imsvtextutils.so \
+    vendor/zuk/msm8996-common/proprietary/lib64/lib-imsvtutils.so:system/vendor/lib64/lib-imsvtutils.so \
+    vendor/zuk/msm8996-common/proprietary/lib64/libdiag_system.so:system/vendor/lib64/libdiag_system.so \
+    vendor/zuk/msm8996-common/proprietary/lib64/librcc.so:system/vendor/lib64/librcc.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib/lib-uceservice.so:system/vendor/vendor/lib/lib-uceservice.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib/libcneoplookup.so:system/vendor/vendor/lib/libcneoplookup.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib/libimscamera_jni.so:system/vendor/vendor/lib/libimscamera_jni.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib/libimsmedia_jni.so:system/vendor/vendor/lib/libimsmedia_jni.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib64/libcneoplookup.so:system/vendor/vendor/lib64/libcneoplookup.so
+
+
 
 PRODUCT_PACKAGES += \
     com.quicinc.cne.api@1.0 \
@@ -725,6 +746,6 @@ PRODUCT_PACKAGES += \
     TimeService \
     colorservice \
     ims \
-    imssettings \
     qcnvitems \
-    qcrilhook
+    qcrilhook \
+    CNEService.apk
