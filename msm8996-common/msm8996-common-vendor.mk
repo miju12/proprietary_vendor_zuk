@@ -566,7 +566,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libaudioalsa.so:system/vendor/lib64/libaudioalsa.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libaudiodevarb.so:system/vendor/lib64/libaudiodevarb.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libbccQTI.so:system/vendor/lib64/libbccQTI.so \
-    vendor/zuk/msm8996-common/proprietary/vendor/lib64/libbtnv.so:system/vendor/lib64/libbtnv.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libc2d30-a5xx.so:system/vendor/lib64/libc2d30-a5xx.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libc2d30_bltlib.so:system/vendor/lib64/libc2d30_bltlib.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libcne.so:system/vendor/lib64/libcne.so \
@@ -730,7 +729,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libcneoplookup.so:system/vendor/vendor/lib64/libcneoplookup.so
 
 
-
 PRODUCT_PACKAGES += \
     com.quicinc.cne.api@1.0 \
     com.quicinc.cne.constants@1.0 \
@@ -750,3 +748,4 @@ PRODUCT_PACKAGES += \
     qcnvitems \
     qcrilhook \
     CNEService.apk
+
