@@ -733,7 +733,15 @@ PRODUCT_COPY_FILES += \
 	vendor/zuk/msm8996-common/proprietary/vendor/lib/soundfx/libasphere.so:system/vendor/vendor/lib/soundfx/libasphere.so \
 	vendor/zuk/msm8996-common/proprietary/vendor/lib/soundfx/libshoebox.so:system/vendor/vendor/lib/soundfx/libshoebox.so \
 	vendor/zuk/msm8996-common/proprietary/vendor/lib64/soundfx/libasphere.so:system/vendor/vendor/lib64/soundfx/libasphere.so \
-    vendor/zuk/msm8996-common/proprietary/vendor/lib64/soundfx/libshoebox.so:system/vendor/vendor/lib64/soundfx/libshoebox.so
+    vendor/zuk/msm8996-common/proprietary/vendor/lib64/soundfx/libshoebox.so:system/vendor/vendor/lib64/soundfx/libshoebox.so  \
+vendor/zuk/msm8996-common/proprietary/vendor/lib64/libjni_clearsight.so:system/vendor/lib64/libjni_clearsight.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib64/libjni_makeupV2.so:system/vendor/lib64/libjni_makeupV2.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib64/libjni_optizoom.so:system/vendor/lib64/libjni_optizoom.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib64/libjni_sharpshooter.so:system/vendor/lib64/libjni_sharpshooter.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib64/libjni_ubifocus.so:system/vendor/lib64/libjni_ubifocus.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib/libjni_dualcamera.so:system/vendor/lib/libjni_dualcamera.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib64/libseemore.so:system/vendor/lib64/libseemore.so
+
 
 
 
