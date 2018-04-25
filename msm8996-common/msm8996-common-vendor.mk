@@ -468,6 +468,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libsmwrapper.so:system/vendor/lib/libsmwrapper.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libtinyxml2_1.so:system/vendor/lib/libtinyxml2_1.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libtm_interface.so:system/vendor/lib/libtm_interface.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libtsvideoprocess.so:system/vendor/lib/libtsvideoprocess.so \
@@ -745,4 +746,4 @@ PRODUCT_PACKAGES += \
     ims \
     imssettings \
     qcnvitems \
-    qcrilhooko
+    qcrilhook
