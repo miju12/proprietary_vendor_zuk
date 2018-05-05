@@ -151,27 +151,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/xtwifi-client:system/vendor/bin/xtwifi-client \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/xtwifi-inet-agent:system/vendor/bin/xtwifi-inet-agent \
     vendor/zuk/msm8996-common/proprietary/vendor/etc/RIDL/qdss.cfg:system/vendor/etc/RIDL/qdss.cfg \
-    vendor/zuk/msm8996-common/proprietary/vendor/etc/acdbdata/Fluid/Fluid_Bluetooth_cal.acdb:system/vendor/etc/acdbdata/Fluid/Fluid_Bluetooth_cal.acdb \
-    vendor/zuk/msm8996-common/proprietary/vendor/etc/acdbdata/Fluid/Fluid_General_cal.acdb:system/vendor/etc/acdbdata/Fluid/Fluid_General_cal.acdb \
-    vendor/zuk/msm8996-common/proprietary/vendor/etc/acdbdata/Fluid/Fluid_Global_cal.acdb:system/vendor/etc/acdbdata/Fluid/Fluid_Global_cal.acdb \
-    vendor/zuk/msm8996-common/proprietary/vendor/etc/acdbdata/Fluid/Fluid_Handset_cal.acdb:system/vendor/etc/acdbdata/Fluid/Fluid_Handset_cal.acdb \
-    vendor/zuk/msm8996-common/proprietary/vendor/etc/acdbdata/Fluid/Fluid_Hdmi_cal.acdb:system/vendor/etc/acdbdata/Fluid/Fluid_Hdmi_cal.acdb \
-    vendor/zuk/msm8996-common/proprietary/vendor/etc/acdbdata/Fluid/Fluid_Headset_cal.acdb:system/vendor/etc/acdbdata/Fluid/Fluid_Headset_cal.acdb \
-    vendor/zuk/msm8996-common/proprietary/vendor/etc/acdbdata/Fluid/Fluid_Speaker_cal.acdb:system/vendor/etc/acdbdata/Fluid/Fluid_Speaker_cal.acdb \
-    vendor/zuk/msm8996-common/proprietary/vendor/etc/acdbdata/Liquid/Liquid_Bluetooth_cal.acdb:system/vendor/etc/acdbdata/Liquid/Liquid_Bluetooth_cal.acdb \
-    vendor/zuk/msm8996-common/proprietary/vendor/etc/acdbdata/Liquid/Liquid_General_cal.acdb:system/vendor/etc/acdbdata/Liquid/Liquid_General_cal.acdb \
-    vendor/zuk/msm8996-common/proprietary/vendor/etc/acdbdata/Liquid/Liquid_Global_cal.acdb:system/vendor/etc/acdbdata/Liquid/Liquid_Global_cal.acdb \
-    vendor/zuk/msm8996-common/proprietary/vendor/etc/acdbdata/Liquid/Liquid_Handset_cal.acdb:system/vendor/etc/acdbdata/Liquid/Liquid_Handset_cal.acdb \
-    vendor/zuk/msm8996-common/proprietary/vendor/etc/acdbdata/Liquid/Liquid_Hdmi_cal.acdb:system/vendor/etc/acdbdata/Liquid/Liquid_Hdmi_cal.acdb \
-    vendor/zuk/msm8996-common/proprietary/vendor/etc/acdbdata/Liquid/Liquid_Headset_cal.acdb:system/vendor/etc/acdbdata/Liquid/Liquid_Headset_cal.acdb \
-    vendor/zuk/msm8996-common/proprietary/vendor/etc/acdbdata/Liquid/Liquid_Speaker_cal.acdb:system/vendor/etc/acdbdata/Liquid/Liquid_Speaker_cal.acdb \
-    vendor/zuk/msm8996-common/proprietary/vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb:system/vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb \
-    vendor/zuk/msm8996-common/proprietary/vendor/etc/acdbdata/QRD/QRD_General_cal.acdb:system/vendor/etc/acdbdata/QRD/QRD_General_cal.acdb \
-    vendor/zuk/msm8996-common/proprietary/vendor/etc/acdbdata/QRD/QRD_Global_cal.acdb:system/vendor/etc/acdbdata/QRD/QRD_Global_cal.acdb \
-    vendor/zuk/msm8996-common/proprietary/vendor/etc/acdbdata/QRD/QRD_Handset_cal.acdb:system/vendor/etc/acdbdata/QRD/QRD_Handset_cal.acdb \
-    vendor/zuk/msm8996-common/proprietary/vendor/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb:system/vendor/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb \
-    vendor/zuk/msm8996-common/proprietary/vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb:system/vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb \
-    vendor/zuk/msm8996-common/proprietary/vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb:system/vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb \
     vendor/zuk/msm8996-common/proprietary/vendor/etc/cacert_location.pem:system/vendor/etc/cacert_location.pem \
     vendor/zuk/msm8996-common/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml:system/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml \
     vendor/zuk/msm8996-common/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml:system/vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml \
