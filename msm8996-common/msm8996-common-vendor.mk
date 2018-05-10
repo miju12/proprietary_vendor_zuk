@@ -726,7 +726,15 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libcneoplookup.so:system/vendor/vendor/lib/libcneoplookup.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libimscamera_jni.so:system/vendor/vendor/lib/libimscamera_jni.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libimsmedia_jni.so:system/vendor/vendor/lib/libimsmedia_jni.so \
-    vendor/zuk/msm8996-common/proprietary/vendor/lib64/libcneoplookup.so:system/vendor/vendor/lib64/libcneoplookup.so
+    vendor/zuk/msm8996-common/proprietary/vendor/lib64/libcneoplookup.so:system/vendor/vendor/lib64/libcneoplookup.so \
+    vendor/zuk/msm8996-common/proprietary/etc/permissions/audiosphere.xml:system/vendor/etc/permissions/audiosphere.xml \
+	vendor/zuk/msm8996-common/proprietary/framework/audiosphere.jar:system/vendor/framework/audiosphere.jar \
+	vendor/zuk/msm8996-common/proprietary/vendor/etc/audio_tuning_mixer.txt:system/vendor/vendor/etc/audio_tuning_mixer.txt \
+	vendor/zuk/msm8996-common/proprietary/vendor/lib/soundfx/libasphere.so:system/vendor/vendor/lib/soundfx/libasphere.so \
+	vendor/zuk/msm8996-common/proprietary/vendor/lib/soundfx/libshoebox.so:system/vendor/vendor/lib/soundfx/libshoebox.so \
+	vendor/zuk/msm8996-common/proprietary/vendor/lib64/soundfx/libasphere.so:system/vendor/vendor/lib64/soundfx/libasphere.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib64/soundfx/libshoebox.so:system/vendor/vendor/lib64/soundfx/libshoebox.so
+
 
 
 PRODUCT_PACKAGES += \
